@@ -12,3 +12,10 @@ int main(){
   }
   return 0;
 }
+
+
+
+//Problem faced in this problem
+//while using getline in this problem for taking inputs for words, the first word it is taking was newline character from cin>>test, so to avoid this
+//we have to use cin.ignore(); statement to ignore the new line character to be taken as input.
+//https://stackoverflow.com/questions/18725522/getline-keeps-on-getting-newline-character-how-can-i-avoid-this
