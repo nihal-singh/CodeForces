@@ -13,3 +13,6 @@ int main(){
   cout << max_domino;
   return 0;
 }
+
+
+// a simplified solution is floor(m*n*0.5).
